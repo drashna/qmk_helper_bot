@@ -146,6 +146,7 @@ module.exports = {
     "handedness": "feature_split_keyboard?id=setting-handedness",
     "syncoptions": "feature_split_keyboard?id=data-sync-options",
     "intercepttaps": "mod_tap?id=intercepting-mod-taps",
+    "udev": "faq_build?id=linux-udev-rules",
   })[docs],
 
   // Format embedded message
