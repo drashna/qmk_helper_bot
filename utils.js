@@ -10,7 +10,7 @@ const helpmessage =  [
   },
   {
     name: "**Building, Flashing, Drivers**",
-    value: "configurator, api, zadig, toolbox, flashing, flashing-bootloadhid, keymap, vagrant, ide-eclipse, ide-vscode, git, hand-wire, isp-flashing, msys, vid, vidq, promicro, protonc, elitec, blackpill, bluepill, wrong-drivers"
+    value: "configurator, api, zadig, toolbox, flashing, flashing-bootloadhid, keymap, vagrant, ide-eclipse, ide-vscode, git, hand-wire, isp-flashing, msys, udev, vid, vidq, promicro, protonc, elitec, blackpill, bluepill, wrong-drivers"
   },
   {
     name: "**QMK CLI**",
