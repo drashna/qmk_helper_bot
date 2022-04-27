@@ -313,6 +313,18 @@ bot.on('message', message => {
         cmdmsg.setImage(snip);
         channel.send(cmdmsg);
         break;
+
+      case 'via':
+        // channel.send('Via:\n' + via + bare(vianvite));
+        iconfrominvite(bot, viainvite)
+            .then(icon => {
+              cmdmsg.setAuthor('Via', icon);
+              cmdmsg.addFields(
+                  {name: 'Information:', value: via + bare(viainvite)});
+              channel.send(cmdmsg);
+            })
+            .catch(err => console.log(err));
+        break;
     }  // switch (cmd)
 
     // Delete message
