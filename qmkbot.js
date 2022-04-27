@@ -313,7 +313,14 @@ bot.on('message', message => {
         cmdmsg.setImage(snip);
         channel.send(cmdmsg);
         break;
-    }  // switch (cmd)
+
+      case 'contra':  // send channel image of elite c pinout
+        cmdmsg.setTitle('The Contra');
+        cmdmsg.setImage(contraimg);
+        channel.send(cmdmsg);
+        // channel.send({files:[elitec]});
+        break;
+      }  // switch (cmd)
 
     // Delete message
     setTimeout(() => message.delete().catch(err => console.log(err)), 100); // testing
